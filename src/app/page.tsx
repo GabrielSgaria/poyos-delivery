@@ -143,12 +143,12 @@ export default function DeliveryPoyosPage() {
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {[
-              { name: "Poyos Clássico", src: "/images/png/cardapio/3.png", description: "Nosso sanduíche de frango crocante original", price: "R$ 18,90" },
-              { name: "Poyos Picante", src: "/images/png/cardapio/4.png", description: "Para os amantes de pimenta", price: "R$ 19,90" },
-              { name: "Poyos Bacon", src: "/images/png/cardapio/7.png", description: "Frango crocante com bacon crocante", price: "R$ 21,90" },
-              { name: "Poyos Salada", src: "/images/png/cardapio/1.png", description: "Opção mais leve com salada fresca", price: "R$ 20,90" },
-              { name: "Poyos Duplo", src: "/images/png/cardapio/2.png", description: "Duas camadas de frango crocante", price: "R$ 24,90" },
-              { name: "Poyos Kids", src: "/images/png/cardapio/5.png", description: "Versão menor para as crianças", price: "R$ 14,90" },
+              { name: "Bacon Chicken", src: "/images/png/cardapio/3.png", description: "Nosso sanduíche de frango crocante com bacon.", price: "R$ 18,90" },
+              { name: "Crunchy Chicken", src: "/images/png/cardapio/4.png", description: "Para os amantes do molho honey.", price: "R$ 19,90" },
+              { name: "Pepper Chicken", src: "/images/png/cardapio/7.png", description: "Frango crocante com salada.", price: "R$ 21,90" },
+              { name: "Molho Poyos", src: "/images/png/cardapio/1.png", description: "Opçãos variadas de molhos poyos.", price: "R$ 20,90" },
+              { name: "Combo Power", src: "/images/png/cardapio/2.png", description: "Combo Power delicioso.", price: "R$ 24,90" },
+              { name: "Mac e cheese", src: "/images/png/cardapio/5.png", description: "Muito molho de queijo especial.", price: "R$ 14,90" },
             ].map((item, index) => (
               <motion.div
                 key={index}
